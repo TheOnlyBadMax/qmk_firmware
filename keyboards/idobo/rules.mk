@@ -22,8 +22,8 @@ COMMAND_ENABLE = no        # Commands for debug and configuration
 # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
 SLEEP_LED_ENABLE = no       # Breathing sleep LED during USB suspend
 # if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
-NKRO_ENABLE = no            # USB Nkey Rollover
-BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality on B7 by default
+NKRO_ENABLE = yes            # USB Nkey Rollover
+BACKLIGHT_ENABLE = yes       # Enable keyboard backlight functionality on B7 by default
 RGBLIGHT_ENABLE = yes        # Enable keyboard RGB underglow
 MIDI_ENABLE = no            # MIDI support
 UNICODE_ENABLE = no         # Unicode
@@ -33,4 +33,4 @@ FAUXCLICKY_ENABLE = no      # Use buzzer to emulate clicky switches
 HD44780_ENABLE = no 		# Enable support for HD44780 based LCDs
 EXTRAFLAGS += -flto        # Use link time optimization
 
-LAYOUTS = ortho_5x15    
+LAYOUTS = ortho_5x15
